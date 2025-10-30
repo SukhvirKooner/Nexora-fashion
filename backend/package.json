@@ -1,0 +1,31 @@
+{
+  "name": "vibe-backend",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node seed/seed.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --runInBand"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.1",
+    "morgan": "^1.10.0",
+    "node-cache": "^5.1.2",
+    "uuid": "^9.0.1",
+    "zod": "^3.23.8",
+    "cross-env": "^7.0.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4",
+    "mongodb-memory-server": "^10.1.4",
+    "nodemon": "^3.1.0"
+  }
+}
+
+

@@ -1,0 +1,16 @@
+{
+  "name": "vibe-commerce-mock-cart",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "postinstall": "echo 'Install backend and frontend deps: (cd backend && npm i) && (cd frontend && npm i)'",
+    "dev": "echo 'Run backend and frontend separately: cd backend && npm run dev | cd frontend && npm run dev'",
+    "test": "echo 'Run tests per package: backend/frontend'"
+  }
+}
+
+
